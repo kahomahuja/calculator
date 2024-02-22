@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-22T14:57:54 IST" name="org.apache.maven.ScientificCalculatorTest" finished-at="2024-02-22T14:57:54 IST" duration-ms="45">
+    <groups>
+    </groups>
+    <test started-at="2024-02-22T14:57:54 IST" name="Command line test" finished-at="2024-02-22T14:57:54 IST" duration-ms="45">
+      <class name="org.apache.maven.ScientificCalculatorTest">
+        <test-method signature="testFactorial()[pri:0, instance:org.apache.maven.ScientificCalculatorTest@43bd930a]" started-at="2024-02-22T14:57:54 IST" name="testFactorial" finished-at="2024-02-22T14:57:54 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFactorial -->
+        <test-method signature="testNaturalLogarithm()[pri:0, instance:org.apache.maven.ScientificCalculatorTest@43bd930a]" started-at="2024-02-22T14:57:54 IST" name="testNaturalLogarithm" finished-at="2024-02-22T14:57:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNaturalLogarithm -->
+        <test-method signature="testPower()[pri:0, instance:org.apache.maven.ScientificCalculatorTest@43bd930a]" started-at="2024-02-22T14:57:54 IST" name="testPower" finished-at="2024-02-22T14:57:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPower -->
+        <test-method signature="testSquareRoot()[pri:0, instance:org.apache.maven.ScientificCalculatorTest@43bd930a]" started-at="2024-02-22T14:57:54 IST" name="testSquareRoot" finished-at="2024-02-22T14:57:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRoot -->
+      </class> <!-- org.apache.maven.ScientificCalculatorTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- org.apache.maven.ScientificCalculatorTest -->
+</testng-results>
