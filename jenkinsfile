@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE_NAME = 'calculator'
+        DOCKER_IMAGE_NAME = 'sc'
         GITHUB_REPO_URL = 'https://github.com/SVP3012/calculator.git'
     }
 
@@ -29,8 +29,8 @@ pipeline {
             steps {
                 script{
                     docker.withRegistry('', 'DockerHubCred') {
-                    sh 'docker tag calculator svp3012/calculator:latest'
-                    sh 'docker push svp3012/calculator'
+                    sh 'docker tag sc svp3012/sc:latest'
+                    sh 'docker push svp3012/sc'
                     }
                  }
             }
