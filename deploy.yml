@@ -20,5 +20,5 @@
       service:
         name: docker
         state: started
-    - name: Running container
+    - name: Running container 
       shell: docker run -it -d --name sc svp3012/sc
