@@ -8,7 +8,7 @@
   tasks:
     - name: Pull Docker Image
       docker_image:
-        name: "Mohak7/sc"
+        name: "mohak7/sc"
         source: pull
       register: docker_pull_result
 
@@ -21,4 +21,4 @@
         name: docker
         state: started
     - name: Running container 
-      shell: docker run -it -d --name sc Mohak7/sc
+      shell: docker run -it -d --name sc mohak7/sc
