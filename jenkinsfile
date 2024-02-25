@@ -42,11 +42,10 @@ pipeline {
                  }
             }
         }
-         stage('clean Docker Images') {
+         stage('clean Docker Images/Container') {
                     steps {
                         script{
-                           sh "docker container prune -f"
-                           sh "docker image prune -f"
+                           sh "docker rm -f sc || true"
                     }
                 }}
 
