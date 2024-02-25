@@ -42,6 +42,13 @@ pipeline {
                  }
             }
         }
+         stage('clean Docker Images') {
+                    steps {
+                        script{
+                           sh 'docker container prune -f'
+                           sh 'docker image prune -f'
+                    }
+                }
 
    stage('Run Ansible Playbook') {
             steps {
