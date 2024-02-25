@@ -37,8 +37,8 @@ pipeline {
             steps {
                 script{
                    docker.withRegistry('', 'DockerHubCred') {
-                                  sh "docker tag ${DOCKER_IMAGE_NAME} mohak/sc:latest"
-                                  sh "docker push mohak/sc:latest"}
+                                  sh "docker tag ${DOCKER_IMAGE_NAME} mohak7/sc:latest"
+                                  sh "docker push mohak7/sc:latest"}
                  }
             }
         }
