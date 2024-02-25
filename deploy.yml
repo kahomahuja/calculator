@@ -1,14 +1,14 @@
 ---
 - name: Pull Docker Image from Docker Hub
   hosts: localhost
-  remote_user: SVP
+  remote_user: mohak
   become: false
   vars:
     ansible_python_interpreter: /usr/bin/python3
   tasks:
     - name: Pull Docker Image
       docker_image:
-        name: "svp3012/sc"
+        name: "mohak/sc"
         source: pull
       register: docker_pull_result
 
@@ -21,4 +21,4 @@
         name: docker
         state: started
     - name: Running container 
-      shell: docker run -it -d --name sc svp3012/sc
+      shell: docker run -it -d --name sc mohak/sc
