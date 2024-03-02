@@ -2,6 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKER_IMAGE_NAME = 'sc'
+       
         GITHUB_REPO_URL = 'https://github.com/kahomahuja/calculator.git'
     }
     stages {
@@ -16,6 +17,7 @@ pipeline {
         stage('Mavngrok en Build') {
             steps {
                 script {
+                     sh "whoami"
                     sh "mvn clean install"
                  }
             }
