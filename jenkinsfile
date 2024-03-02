@@ -18,6 +18,7 @@ pipeline {
             steps {
                 script {
                      sh "whoami"
+                     sh "cd"
                     sh "mvn clean install"
                  }
             }
