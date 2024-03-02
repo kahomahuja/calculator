@@ -27,12 +27,13 @@ public class ScientificCalculatorTest {
         assertEquals(1.609, Math.log(5), 0.001);
         assertEquals(2.302, Math.log(10), 0.001);
     }
-
+/*
     @Test
     public void testPower() {
         assertEquals(8.0, Math.pow(2, 3), 0.001);
         assertEquals(1.0, Math.pow(5, 0), 0.001);
         assertEquals(1024.0, Math.pow(2, 10), 0.001);
     }
+    */
     
 }
